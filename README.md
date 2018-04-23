@@ -10,5 +10,5 @@ A repo to explore graphQL. An application which allows Users to create a "Walk",
 #### Application
 - [X] React native app
 - [X] Query to view Walks
-- [ ] Query walks specific to user
+- [ ] View UserInfo component with user data on each card
 - [ ] Tap to view specific walk info
