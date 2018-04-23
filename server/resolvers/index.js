@@ -1,9 +1,11 @@
 const find = require('lodash/find')
 const filter = require('lodash/filter')
+const map = require('lodash/map')
 
 const {
   Walks,
-  Users
+  Users,
+  Destinations
 } = require('../fixtures')
 
 module.exports = {
@@ -17,6 +19,7 @@ module.exports = {
   },
 
   Walk: {
-    user: walk => find(Users, { id: walk.userId })
+    user: walk => find(Users, { id: walk.userId }),
+    destinations: ({ destinationIds }) => map(destinationIds, id => find(Destinations, { id }))
   }
 }

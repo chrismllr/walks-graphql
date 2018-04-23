@@ -8,6 +8,6 @@ A repo to explore graphQL. An application which allows Users to create a "Walk",
 - [ ] GraphiQL
 
 #### Application
-- [ ] React app
+- [ ] React native app
 - [ ] Query to view Walks by user
 - [ ] Tap to view specific walk info
